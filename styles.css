@@ -1,0 +1,731 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header {
+    background-color: #512597da;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav .logo img {
+    width: 150px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+/* Genel stil */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #6a4c9c; /* Mor Renk */
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    max-width: 150px;
+}
+
+.navbar-links a {
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ff99cc;
+}
+
+/* Genel Stil Ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Slider Genel Ayarları */
+.hero {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+/* Slider Genel Ayarları */
+.hero {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    width: 100%;
+    height: 60vh; /* Slider yüksekliği */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;  /* Her slide için tam genişlik */
+    height: 100%;     /* Slider yüksekliğine göre ayar */
+    position: relative;
+}
+
+/* Görsel ve Video Ayarları */
+.slider img,
+.slider video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Hem görseller hem de videolar tam ekranı kaplar */
+}
+
+/* Başlık Ortalamayı Düzenleme */
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Başlığı tam ortalar */
+    color: rgba(80, 78, 78, 0.762);  /* Başlık rengi */
+    text-align: center;
+    z-index: 10;   /* Başlık en üstte olsun */
+}
+
+.text h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 18px;
+}
+
+/* Video İçin Görünürlük Ayarı */
+.video-container {
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover; /* Video, ekranı tam dolduracak şekilde yerleşir */
+}
+
+/* Slider Kontrolleri */
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.controls button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.controls .prev {
+    left: 20px;
+}
+
+.controls .next {
+    right: 20px;
+}
+
+.share-story {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.share-story h2 {
+    font-family: 'Dancing Script', cursive;  
+    font-size: 36px;
+    font-size: 28px;
+    color:#512597;
+}
+
+.share-story form {
+    margin-top: 20px;
+}
+
+.share-story textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+}
+
+.share-story button {
+    
+    background-color:#512597;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.share-story button:hover {
+    background-color: #5125979b;
+}
+
+
+
+
+
+footer {
+    background-color: #512597da;
+    color: rgba(255, 255, 255, 0.772);
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+
+    .share-story {
+        padding: 30px 20px;
+    }
+
+    .share-story h2 {
+        font-size: 28px;
+    }
+
+    .share-story textarea {
+        width: 100%;
+    }
+
+   
+
+    .login {
+        padding: 30px 20px;
+    }
+
+    .login input {
+        width: 100%;
+    }
+
+    .login button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav .logo img {
+        width: 120px;  
+    }
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .share-story h2 {
+        font-size: 24px;
+    }
+
+    .share-story button {
+        font-size: 16px;
+    }
+
+    .download-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .download-btn img {
+        width: 40px;  
+    }
+
+    .login input {
+        width: 90%;
+    }
+
+    .login button {
+        font-size: 14px;
+    }
+}
+
+
+/* Desktop */
+.hero .slider img {
+    width: 100%;
+    height: 5ƒ00px;
+    object-fit: cover;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .hero .slider img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+/* Mobil */
+@media (max-width: 480px) {
+    .hero .slider img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kades-download {
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+    width: fit-content;
+}
+
+.kades-container {
+    text-align: center;
+    width: 240px;
+}
+
+.kades-logo {
+    margin-bottom: 0.75rem;
+}
+
+.kades-logo-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.2);
+}
+
+.kades-title {
+    color: #6b21a8;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.5px;
+}
+
+.kades-description {
+    color: #7e22ce;
+    font-size: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.kades-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to right, #7e22ce, #6b21a8);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+}
+
+.kades-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
+    background: linear-gradient(to right, #6b21a8, #581c87);
+}
+
+.kades-button:active {
+    transform: scale(0.98);
+}
+
+.kades-button-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    z-index: 1;
+}
+
+.kades-button-content svg {
+    width: 16px;
+    height: 16px;
+}
+
+.kades-shine {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transform: skewX(-20deg);
+    transition: 0.7s;
+}
+
+.kades-button:hover .kades-shine {
+    left: 100%;
+}
+
+.kades-version {
+    margin-top: 0.5rem;
+    color: #7e22ce;
+    font-size: 0.625rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .kades-download {
+        background: linear-gradient(135deg, #3b0764 0%, #2e1065 100%);
+    }
+    
+    .kades-title {
+        color: #e9d5ff;
+    }
+    
+    .kades-description {
+        color: #d8b4fe;
+    }
+    
+    .kades-version {
+        color: #d8b4fe;
+    }
+}
+
+
+/* Film kutuları için temel stil */
+.film-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+/* Her bir film kutusu */
+.film-box {
+    background-color: #6a4c9c;
+    color: white;
+    width: calc(25% - 20px); /* 4 kutu 1 satıra yerleştirilir, toplam %100 */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* İkonlar */
+.film-box .icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #f5a623; /* Film temalı altın rengi */
+}
+
+/* Başlık */
+.film-box h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f5a623; /* Başlık rengi */
+}
+
+/* Açıklama metni */
+.film-box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Hover efekti */
+.film-box:hover {
+    transform: translateY(-10px); /* Kutuyu yukarıya kaydır */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Daha belirgin gölge */
+}
+
+/* Responsive tasarım - tablet ve mobil */
+@media (max-width: 1024px) {
+    .film-box {
+        width: calc(50% - 20px); /* Tabletler için 2 kutu bir satırda */
+    }
+}
+
+@media (max-width: 768px) {
+    .film-box {
+        width: 100%; /* Mobilde her kutu tam genişlikte olacak */
+    }
+}
+
+/* Genel stil */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color:gray; /* Koyu Arka Plan */
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Genel stil ayarları */
+.org-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.org-card {
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8f7f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.org-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.org-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.org-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.org-card p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Responsive tasarım */
+@media (max-width: 768px) {
+    .org-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .org-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Kitaplar Bölümü */
+.books-section {
+    display: flex;                    /* Flexbox ile kutuları yan yana yerleştiriyoruz */
+    justify-content: space-between;   /* Her kutu arasında eşit boşluk bırak */
+    gap: 20px;                        /* Kutular arasında küçük boşluk */
+    padding: 20px;                    /* Dışarda bir miktar boşluk */
+    flex-wrap: wrap;                  /* Ekran küçükse kutuların alt satıra geçmesini sağlar */
+}
+
+/* Kitap kutusunun başlangıç durumunu gizli yapıyoruz */
+.book-container {
+    position: relative;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    opacity: 0; /* Başlangıçta görünmez */
+    transform: translateY(50px); /* Başlangıçta biraz aşağıda */
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out; /* Yumuşak geçiş */
+}
+
+.book-container.visible {
+    opacity: 1;
+    transform: translateY(0); /* Görünür olduğunda eski haline gelir */
+}
+
+.book-container:hover {
+    transform: scale(1.05);
+}
+
+/* Küçük Kitap Resmi */
+.small-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* Resmin alanı tam olarak kaplamasını sağla */
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Hoverda resmin büyümesini sağlar */
+}
+
+/* Kitap İçeriği (Gizli) */
+.book-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Yarı saydam siyah arka plan */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Başlangıçta gizli */
+    transition: opacity 0.5s ease-in-out; /* Opaklık geçişi */
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Hover Efekti */
+.book-container:hover .small-image {
+    transform: scale(1.1); /* Hoverda küçük resmi büyüt */
+}
+
+.book-container:hover .book-content {
+    opacity: 1;  /* Kitap içeriğini görünür yap */
+}
+
+/* Mobile responsive ayarları */
+@media (max-width: 768px) {
+    .book-container {
+        width: 45%;  /* Mobilde kutu genişliğini %45 yap */
+    }
+}
+
+@media (max-width: 480px) {
+    .book-container {
+        width: 90%;  /* Küçük ekranlarda kutuların genişliğini %90 yap */
+    }
+}
